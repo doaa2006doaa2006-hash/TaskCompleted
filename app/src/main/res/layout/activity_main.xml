@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/task_background">
+
+    <ImageView
+        android:layout_width="161dp"
+        android:layout_height="168dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/task_completed" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_completed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/task_text"
+        android:layout_marginTop="24dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nice_work"
+        android:textSize="16sp"
+        android:textColor="@color/task_text"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
